@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 8 - Introducir un número y devolver texto que diga si es par o impar</title>
+   
+</head>
+<body>
+  <script>
+    var numero = prompt("Introduce un número entero");
+    var resultado = parImpar (numero);
+    alert ("el numero " + numero + " es " + parImpar (numero));
+    parImpar();
+         function parImpar (numero) {
+         var resultado = (numero % 2)
+         if (resultado == 0) {
+           return "par";
+           }
+           else{
+        return "impar";
+       }}
+
+    
+
+     
+     
+
+
+    </script>
+</body>
+  
+</html>
